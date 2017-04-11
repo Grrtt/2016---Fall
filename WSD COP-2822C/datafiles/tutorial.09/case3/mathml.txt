@@ -1,0 +1,96 @@
+Equation 1
+==========
+
+<mrow>
+   <mn>a</mn>
+   <msup>
+      <mi>x</mi>
+      <mn>2</mn>
+   </msup>
+   <mo>+</mo>
+   <mn>b</mn>
+   <mi>x</mi>
+   <mo>+</mo>
+   <mn>c</mn>
+   <mo>=</mo>
+   <mn>0</mn>
+</mrow>
+
+
+Equation 2
+==========
+
+<mrow>
+   <mi>x</mi>
+   <mo>=</mo>
+   <mfrac>
+      <mrow>
+         <mo>-</mo>
+         <mi>b</mi>
+         <mo>&#177;</mo>
+         <msqrt>
+            <msup>
+               <mi>b</mi>
+               <mn>2</mn>
+            </msup>
+            <mo>-</mo>
+            <mn>4</mn>
+            <mi>a</mi>
+            <mi>c</mi>
+         </msqrt>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+         <mi>a</mi>
+      </mrow>
+   </mfrac>
+</mrow>
+
+
+Equation 3
+==========
+
+<mrow>
+   <mn>2</mn>
+   <msup>
+      <mi>x</mi>
+      <mn>2</mn>
+   </msup>
+   <mo>-</mo>
+   <mn>14</mn>
+   <mi>x</mi>
+   <mo>+</mo>
+   <mn>20</mn>
+   <mo>=</mo>
+   <mn>0</mn>
+</mrow>
+
+
+
+Equation 4
+==========
+
+<mrow>
+   <mi>x</mi>
+   <mo>=</mo>
+   <mfrac>
+      <mrow>
+         <mi>14</mi>
+         <mo>&#177;</mo>
+         <msqrt>
+            <msup>
+               <mi>(-14)</mi>
+               <mn>2</mn>
+            </msup>
+            <mo>-</mo>
+            <mn>4</mn>
+            <mi>(2)</mi>
+            <mi>(20)</mi>
+         </msqrt>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+         <mi>(2)</mi>
+      </mrow>
+   </mfrac>
+</mrow>

@@ -1,0 +1,9 @@
+Seminar Code	Seminar Description	Hours	Increments
+S01	Basket Analysis	6	2
+S02	Customer Loyalty	2	1
+S03	Sales Forecasting	4	2
+S04	Merchandise Planning	6	2
+S05	Database Marketing	8	2
+S06	Card Marketing	2	1
+S07	Market Segmentation	4	2
+S08	Using Social Networking	4	2

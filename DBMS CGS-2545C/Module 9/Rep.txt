@@ -1,0 +1,4 @@
+1,"21","Kerry","Alyssa","261 Pointer","Tourin","CO","80416",0.10,$17600.00
+2,"24","Reeves","Camden","3135 Brill","Denton","CO","80412",0.10,$19900.00
+3,"27","Fernandez","Jaime","265 Maxwell","Charleston","CO","80380",0.09,$9450.00
+4,"34","Lee","Jan","1827 Oak","Denton","CO","80413",0.08,$0.00

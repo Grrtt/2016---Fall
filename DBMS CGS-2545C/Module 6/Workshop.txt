@@ -1,0 +1,9 @@
+Workshop Code	Workshop Description	Hours	Increments
+W01	Dealing with Unacceptable Employee Behavior	4	2
+W02	Writing Effective Policies and Procedures	8	4
+W03	Payroll Law	3	1
+W04	Workplace Safety	16	4
+W05	The Recruitment Process	24	4
+W06	Diversity in the Workplace	12	3
+W07	Americans with Disabilities Act (ADA)	4	2
+W08	Workers' Compensation	16	4

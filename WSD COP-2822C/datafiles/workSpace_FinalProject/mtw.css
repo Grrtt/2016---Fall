@@ -1,0 +1,310 @@
+﻿
+/* General Styles */
+
+* {
+	font-family: Calibri, Arial, Verdana;
+}
+
+/* Body Styles */
+
+body
+{
+	background-color: #fee0be;
+}
+
+body h1 {
+	background-color: tan;
+	padding: 20px;
+	width: 750px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+body p {
+	display: block;
+	padding: 3px;
+	text-align: justify;
+	margin-left: 3px;
+}
+
+body p a {
+    text-decoration: none;
+}
+
+body article {
+	display: block;
+    float: left;
+	background-color: #ead6bc;
+	width: 575px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 3%;
+    padding: 0px 5px;
+}
+
+/* Article Stlye*/
+
+article h2 {
+    background-color: tan;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0px;
+    text-indent: 5px;
+}
+
+/*Nav Styles*/
+
+nav {
+	display: block;
+	border: 1px solid black;
+	float: left;
+	min-width: 130px;
+	background-color:#82ad73;
+	font-size: 1.2em;
+	border-radius: 5px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li a {
+	color: white;
+	display: block;
+	width: auto;
+	text-decoration: none;
+	padding: 5px 15px;
+}
+
+li a:hover {
+	background-color: #95c484;
+	font-size: 1.25em;
+}
+
+/*General Form Styles*/
+
+form {
+	display: block;
+	float: left;
+	font-size: 1.1em;
+	width: 575px;
+	margin-left: 3%;
+}
+
+form * {
+	border: none;
+}
+
+form input, textarea, select {
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+form > fieldset {
+	display: block;
+	border: 1px solid black;
+	background-color: #ead6bc;
+	margin-top: 10px;
+}
+
+fieldset fieldset {
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+form fieldset label {
+	clear: left;
+	float: left;
+	width: 40%;
+	margin: 5px 0px;
+}
+
+form fieldset.optionGroup {
+	display: block;
+	border: none;
+	margin-right: 0px;
+}
+
+form legend {
+	background-color:tan;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: white;
+	width: 100%;
+	text-indent: 10px;
+	margin: 0px 0px 10px 1.5%;
+}
+
+form textarea {
+	font-size: 0.9em;
+	float: left;
+	height: 150px;
+	margin: 10px 2.5%;
+	width: 100%;
+	max-width: 350px;
+}
+
+form p > input {
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	font-size: 1em;
+}
+
+/* Media Form Styles */
+
+#mediaForm {
+	display: inline;
+}
+
+#mediaForm #title {
+	margin-left: 10px;
+	width: 500px;
+}
+
+#mediaForm #year {
+	margin-left: 18px;
+	width: 50px;
+}
+
+#mediaForm #plot {
+	margin-left: 21px;
+}
+
+#mediaForm input[type="button"] {
+    display: inline;
+	float: right;
+    margin: 0px 5px;
+}
+
+#mediaForm input, select {
+	border-radius: 5px;
+}
+
+/* Media List Styles */
+
+div > table {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 627px;
+	float: left;
+	clear: left;
+	margin-left: 8.5%;
+	margin-top: 10px;
+}
+
+table #title{
+	background-color: tan;
+	border-radius: 5px;
+	color: white;
+}
+
+table #poster {
+	border: 1px solid black;
+}
+
+table td {
+	border: 1px solid black;
+}
+
+
+table #metascore, #imdbID, #released, #rated, 
+#imdbRating, #runtime, #type, #tomatoRating {
+	text-align: center;
+}
+
+table #imdbID, #metascore, #tomatoRating {
+	max-width: 25%;
+}
+
+table a {
+	font-style: normal;
+}
+
+table tr:nth-of-type(odd){
+	background-color: #ead6bc;
+}
+
+table tr:nth-of-type(even){
+	background-color: tan;
+}
+
+table #plot{
+	max-width: 50%;
+	font-size: 0.9em;
+}
+
+table a {
+	text-decoration: none;
+	color: black;
+}
+
+#imdbInfo{
+	background-color: #f3ce13;
+	border-radius: 5px;
+	color: black;
+	font-family: Impact;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+#imdbInfo a {
+	text-decoration: none;
+	background-color: #f3ce13;
+	border-radius: 5px;
+	color: black;
+	font-family: Impact;
+	font-size: 1.4em;
+}
+
+#tomatoesInfo {
+	background-color: #3a9425;
+	color: #fdee00;
+	border-radius: 5px;
+	font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+#tomatoesInfo a {
+	text-decoration: none;
+	background-color: #3a9425;
+	color: #fdee00;
+	border-radius: 5px;
+	font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#tomatoConsensus {
+	font-size: 0.9em;
+}
+
+#metacriticInfo {
+	background-color: black;
+	color: white;
+	font-family: arial, helvetica, serif;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#metacriticInfo a {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	font-family: arial, helvetica, serif;
+	border-radius: 5px;
+}
+
+#websites td:nth-child(even) {
+	background-color: #ead6bc;
+}
+
+.mediaExample {
+    border: 1px solid black;
+    border-radius: 5px;
+    float: left;
+    clear: left;
+    width: 627px;
+    margin-left: 9%;
+    margin-top: 5px;
+}

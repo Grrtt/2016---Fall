@@ -1,0 +1,101 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Case Problem 2
+
+   The Gargoyle Collection HTML5 Style Sheet
+
+   Author: Garrett Shepherd
+   Date:   11/28/2016
+
+   Filename:         maah5.css
+   Supporting Files: 
+
+*/
+
+body {
+   background: url(gbar.jpg);
+   width: 810px;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+nav {
+   width: 165px;
+   float: left;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+nav h4 {
+   color: yellow;
+}
+
+#content {
+   width: 645px;
+   float: left;
+}
+
+
+#content h4 {
+   text-align: center;
+}
+
+#content header {
+   text-align: center;
+   width: 100%;
+}
+
+article {
+   width: 320px;
+   margin: 0px 5px 0px 0px;
+   float: left;
+}
+
+article h4 {
+   color: red;
+}
+
+article img {
+   float: right;
+}
+
+aside {
+   width: 320px;
+   float: left;
+}
+
+#aside1 {
+   background-color: yellow;
+}
+
+#aside2 img {
+   float: right;
+}
+
+
+#aside2 h4 {
+   color: red;
+}
+
+
+
+
+
+
+
+

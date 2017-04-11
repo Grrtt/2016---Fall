@@ -1,0 +1,10 @@
+1,"AC34","Alys Clinic","134 Central","Berridge","CO","80330",$0.00,$17500.00,1
+2,"BH72","Berls Hospital","415 Main","Berls","CO","80349",$29200.00,$0.00,2
+3,"BL12","Benton Labs","12 Mountain","Denton","CO","80412",$16500.00,$38225.00,2
+4,"EA45","ENT Assoc.","867 Ridge","Fort Stewart","CO","80336",$12750.00,$15000.00,3
+5,"FD89","Ferb Dentistry","34 Crestview","Berridge","CO","80330",$21000.00,$12500.00,1
+6,"FH22","Family Health","123 Second","Tarleton","CO","80409",$0.00,$0.00,2
+7,"MH56","Maun Hospital","76 Dixon","Mason","CO","80356",$0.00,$43025.00,2
+8,"PR11","Peel Radiology","151 Valleyview","Fort Stewart","CO","80336",$31750.00,$0.00,1
+9,"TC37","Tarleton Clinic","451 Hull","Tarleton","CO","80409",$18750.00,$31500.00,3
+10,"WL56","West Labs","785 Main","Berls","CO","80349",$14000.00,$0.00,2

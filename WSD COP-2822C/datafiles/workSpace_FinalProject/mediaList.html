@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Media Searcher : Media List</title>
+    <link href="mtw.css" rel="stylesheet" type="text/css" />
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Media Searcher</h1>
+
+    <nav id="nav">
+        <script>getNav()</script>
+    </nav>
+
+    <form id="mediaForm">
+        <fieldset id="mediaSearch">
+            <legend>Media Search</legend>
+
+            <label>
+                Title<sup>*</sup>
+                <input name="title" id="title" required="required" />
+            </label>
+            <br />
+            <label>
+                Year
+                <input name="year" id="year" maxlength="4" />
+            </label>
+            <br />
+            <label>
+                Plot
+                <select name="plot" id="plot">
+                    <option value="type1" selected="selected">Long</option>
+                    <option value="type2">Short</option>
+                </select>
+            </label>
+            <input type="button" id="mediaSubmit" value="Search" onclick="getMediaInfo()" />
+            <input type="button" id="mediaClear" value="Clear" onclick="clearMedia()" />
+        </fieldset>
+    </form>
+
+    <div id="content"></div>
+</body>
+</html>

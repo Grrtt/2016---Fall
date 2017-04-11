@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Media Searcher : Home</title>
+
+    <link href="mtw.css" rel="stylesheet" type="text/css" />
+    <script src="scripts.js"></script>
+</head>
+<body>
+    
+    <h1>Media Searcher</h1>
+
+    <nav id="nav">
+        <script>getNav()</script>
+    </nav>
+
+    <article>
+        <h2>Welcome!</h2>
+        <p>
+            Welcome to my dynamic media search list. This site is designed
+            to dynamically add Movies & TV Shows in a visible list that
+            returns various information concerning the different media.
+        </p>
+
+        <p>
+            The site references various sites like
+            <a id="imdbInfo" href="http://www.imdb.com/">IMDb</a>,
+            <a id="tomatoesInfo" href="http://www.rottentomatoes.com/"><b>Rotten Tomatoes</b></a>, and
+            <a id="metacriticInfo" href="http://www.metacritic.com/"><b>metacritic</b></a>. The results are
+            snappy, and are achieved through the <a href="https://www.omdbapi.com/">OMDb API</a>. Unfortunately,
+            I was unable to find a free API that would return video clips for each media search. A sample of what
+            it would have looked like can be found below.
+        </p>
+
+        <p>
+            Feel free to go to the Feedback section to send me any comments concerning the site.
+        </p>
+        <p>
+            Enjoy!
+        </p>
+        <p>
+            - Garrett Shepherd
+        </p>
+    </article>
+
+    <table id="tt0365748" class="mediaExample">
+        <colgroup><col class="posterCol"><col class="infoCol1" span="1"><col class="infoCol2" span="1"></colgroup>
+        <thead><tr><th id="title" title="Movie Title" colspan="4">Shaun of the Dead</th></tr></thead>
+        <tbody>
+            <tr>
+                <td id="poster" title="Movie Poster" rowspan="5">
+                    <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NjA0NDk0NV5BMl5BanBnXkFtZTcwOTA0OTQzMw@@._V1_SX300.jpg" alt="Error." height="268" width="182">
+                </td>
+                <td id="actors" title="Actor(s)">Simon Pegg, Kate Ashfield, Nick Frost, Lucy Davis</td>
+                <td id="released" title="Release Date" colspan="2">24 Sep 2004</td>
+            </tr>
+            <tr>
+                <td id="awards" title="Award(s)">13 wins &amp; 20 nominations.</td>
+                <td id="rated" title="Movie Rating" colspan="2">R</td>
+            </tr>
+            <tr>
+                <td id="director" title="Director(s)">Edgar Wright</td>
+                <td id="runtime" title="Runtime" colspan="2">99 min</td>
+            </tr>
+            <tr>
+                <td id="genre" title="Genre(s)">Comedy, Horror</td>
+                <td id="type" title="Movie" colspan="2">
+                    <img src="http://www.freeiconspng.com/uploads/movie-icon-2.png" alt="Movie." height="25" width="25">
+                </td>
+            </tr>
+            <tr>
+                <td id="plot" title="Plot" colspan="3">
+                    Shaun doesn't have a very good day, so he decides to turn his life around
+                    by getting his ex to take him back, but he times it for right in the middle
+                    of what may be a zombie apocalypse... But for him, it's an opportunity
+                    to show everyone he knows how useful he is by saving them all.
+                    All he has to do is survive... And get his ex back.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <table id="websites" class="websites">
+                        <thead>
+                            <tr>
+                                <th id="imdbInfo" title="IMDb Information" colspan="2">
+                                    <a href="http://www.imdb.com/" target="_blank">IMDb</a>
+                                </th>
+                                <th id="tomatoesInfo" title="Rotten Tomatoes Information" colspan="3">
+                                    <a href="http://www.rottentomatoes.com/">Rotten Tomatoes</a>
+                                </th>
+                                <th id="metacriticInfo" title="MetaCritic Information">metacritic</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="imdbID" title="IMDb ID">
+                                    <a href="http://www.imdb.com/title/tt0365748/" target="_blank">tt0365748</a>
+                                </td>
+                                <td id="imdbRating" title="IMDb Rating">8.0</td>
+                                <td id="tomatoRating" title="Rotten Tomatoes Rating">7.8</td>
+                                <td id="tomatoMeter" title="Tomato Meter">92</td>
+                                <td id="tomatoConsensus" title="Tomato Consensus">
+                                    Shaun of the Dead cleverly balances scares and witty satire,
+                                    making for a bloody good zombie movie with loads of wit.
+                                </td>
+                                <td id="metascore" title="MetaCritic Score">76</td>
+                            </tr>
+                            <tr>
+                                <iframe width="615" height="480" src="https://www.youtube.com/embed/LIfcaZ4pC-4" frameborder="0"></iframe>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

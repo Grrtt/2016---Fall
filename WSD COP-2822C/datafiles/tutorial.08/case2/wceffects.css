@@ -1,0 +1,25 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case Problem 2
+
+   Special Effects style sheet
+   Author: Garrett Shepherd
+   Date:   10/31/2016
+
+   Filename:         wceffects.css
+   Supporting Files: 
+
+*/
+
+/* Body Styles */
+
+body {
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+aside div {
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+	opacity: 0.75;
+	box-shadow: rgba(101, 101, 101, 0.7) 5px 5px 10px;
+}

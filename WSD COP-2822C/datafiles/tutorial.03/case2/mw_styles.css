@@ -1,0 +1,102 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author:  Garrett Shepherd
+   Date:   9/27/2016
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+
+*/
+
+body{
+	font-family: Tahoma, Geneca, sans-serif;
+}
+
+#articleheader{
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 7px;
+	text-align: center;
+}
+
+nav{
+	background-color: rgb(125,120,89);
+	line-height: 3em;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li:hover {
+	background-color: rgb(131,121,36);
+	list-style-image:  url(wheelmarker.png);
+}
+
+nav ul li a {
+	color: white;
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: yellow;
+	color: rgba(255, 255, 255, 1);
+}
+
+#leftsection > p {
+	font-size: 22px;
+}
+
+#leftsection > p:first-of-type:first-line {
+	text-transform: uppercase;
+}
+
+blockquote {
+	background-color: rgb(131,121, 36);
+	color: white;
+	font-size: 16px;
+	font-family: Comic Sans MS, Times, cursive;
+}
+
+blockquote p:before {
+	content:'"';
+}
+
+blockquote p:after {
+	content:'"';
+}
+
+#rightsection h1 {
+	font-size: 22px;
+	letter-spacing: 3px;
+	text-align: center;
+	font-weight: normal;
+}
+
+#rightsection h2 {
+	font-size: 18px;
+	text-align: right;
+	font-weight: normal;
+}
+
+#rightsection p {
+	color: gray;
+	font-size: 14px;
+	text-align: justify;
+}
+
+/*
+	Blue, unlderlined cellphone text is from 
+	Microsoft Edge's native style-sheet.
+*/
+
+footer address {
+	font-size: 16px;
+	font-style: normal;
+	text-align: center;
+}

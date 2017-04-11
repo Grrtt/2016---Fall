@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<!--	Questions and answers from each Quick Check.	-->
+	</head>
+	<body>
+		<!--	Tutorial 1	-->
+		<section>
+			<article>
+				<header>Section 1.1</header>
+				<p>1. What is a markup language?</p>
+				A markup language is a language that describes the content and structure of a document by identifying, or tagging, different elements in the document.
+				
+				<p>2. What is XHTML? How does XHTML differ from HTML?</p>
+				XHTML stands for "Extensible Hypertext Markup Language." XHTML, unlike HTML, is very strict in its syntax.
+				
+				<p>3. What is the W3C? What is the WHATWG?</p>
+				W3C is the World Wide Web Consortium, who have set up standards for Web browser manufacturers, and tried to push XHTML.
+				WHATWG was an off-shoot of W3C that pushed forward development on HTML5, set to rival XHTML 2.0. Untimately, HTML5 won out as XHTML 2.0 was stalled indefinitely in 2009.
+				
+				<p>4. What is a doctype? What are two uses of the doctype?</p>
+				A Doctype is a Document Type Declaration. Depending on the doctype used, the web page will render differently. Also, the document will be (in)validated depending on the doctype used and the document's following syntax.
+				
+				<p>5. What is incorrect about the syntax of the following code?</p>
+				<pre><p>Welcome to the <em>J-Prop Shop</p></em></pre>
+				The cose is written improperly, with the emphasis element straddling the closing paragraph tag. While it displays properly, its formatted in a less legible way than standard.
+				
+				<p>6. What is white space? How does HTML treat consecutive occurrences of white space?</p>
+				White space is "empty" space in a document. HTML treats white space as inconsequential, and it will not be rendered.
+				
+				<p>7. What structural element would you use to mark a sidebar?</p>
+				The aside tag.
+				
+				<p>8. What structural element would you use to mark the page footer?</p>
+				The footer tag.
+			</article>
+			<br />
+			<article>
+				<header>Section 1.2</header>
+				<p>1. Specify the code you would enter to mark the text The J-Prop Shop as an h1 heading and the text Product List as an h2 heading. Add code to group these two headings so browsers recognize them as a heading and subheading, respectively.</p>
+				<pre>
+					&lt;header&gt;
+						&lt;hgroup&gt;
+							&lt;h1&gt;The J-Prop Shop&lt;/h1&gt;
+							&lt;h2&gt;Product List&lt;/h2&gt;
+						&lt;hgroup/&gt;
+					&lt;/header&gt;
+				</pre>
+				
+				<p>2. Specify the code you would enter to mark the text <em>Hamlet by William Shakespeare</em> as an h1 heading, with a line break after the word <em>Hamlet.</em></p>
+				<pre>
+					&lt;h1&gt;Hamlet&lt;br /&gt;&lt;/h1&gt;
+				</pre>
+				
+				<p>3. Create an ordered list of the following items: Packers, Bears, Lions, Vikings.</p>
+				<ol>
+					<li>Packers</li>
+					<li>Bears</li>
+					<li>Lions</li>
+					<li>Vikings</li>
+				</ol>
+				
+				<p>4. Specify the code to access the CSS style sheet file <em>uwstyles.css</em>. Where should you place this code within an HTML file?</p>
+				<pre>
+				&lt;head&gt;
+					&lt;link href="uwstyles.css" rel="stylesheet" type="text/css"/&gt;
+				&lt;head/&gt;
+				</pre>
+				
+				<p>5. Mark the graphic file <em>portrait.gif</em> as an inline image, setting the dimensions to 250 pixels wide by 300 pixels high. Specify the text David Vinet as alternate text to be displayed in place of the image for non-graphical browsers.</p>
+				
+				<pre>&lt;img src="portrait.gif" width="250" height="300" alt="David Vinet"/&gt;</pre>
+				
+				<p>6. Specify the code to place the <em>portrait.gif</em> image from the previous question within a figure box with the caption David Vinet, owner of the J-Prop Shop.</p>
+				
+				<pre>
+				&lt;figure&gt;
+					&lt;img src="portrait.gif" width="250" height="300" alt="David Vinet"/&gt;
+					&lt;figcaption&gt;David Vinet&lt;figcaption/&gt;
+				&lt;figure/&gt;
+				</pre>
+				
+				<p>7. The trademark symbol ( &#8482; ) has the character encoding number 8482. Provide the HTML code to enter this symbol into your Web page.</p>
+				
+				<pre>
+					&amp;&#35;8482&#59;
+				</pre>
+				
+				<p>8. The Greek letter &beta; has the character entity name beta. How would you enter this symbol into your Web page?</p>
+				
+				<pre>
+					&amp;&#35;beta&#59;
+				</pre>
+			</article>
+		</section>
+	</body>
+</html>

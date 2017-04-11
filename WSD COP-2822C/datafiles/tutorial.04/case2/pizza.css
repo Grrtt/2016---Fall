@@ -1,0 +1,198 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 2
+
+   Pizza Style Sheet
+   Author: Garrett Shepherd
+   Date:   10/10/2016
+
+   Filename:         pizza.css
+   Supporting Files: 
+
+*/
+
+/* General Settings */
+
+header, section, aside, footer, nav {
+	display: block;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Body */
+
+body {
+	background-color: red;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+	/* Container */
+		
+	#container {
+		background: white url(redbar.png) top left repeat-y;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+		margin: 0px auto;
+		width: 1000px;
+		}
+		
+		/* Header */
+
+		header {
+			background-color: white;
+			height: 100px;
+		}
+
+		/* Navigation */
+
+		nav.horizontal {
+			background-color: white;
+			height: 70px;
+			width: 100%;
+		}
+
+		nav.horizontal li {
+			background-color: white;
+			display: block;
+			float: left;
+			font: 16px;
+			height: 50px;
+			line-height: 50px;
+			margin-left: 5px;
+			margin-right: 5px;
+			text-align: center;
+			width: 180px;
+		}
+
+		nav.horizontal li a {
+			background-color: red;
+			-o-border-radius: 30px 25px;
+			-moz-border-radius: 30px 25px;
+			-webkit-border-radius: 30px 25px;
+			border-radius: 30px 25px;
+			color: white;
+			display: block;
+			text-decoration: none;
+		}
+
+		nav.horizontal li a:hover {
+			background-color: rgb(255, 101, 101);
+			color: black;
+		}
+
+		nav.vertical ul {
+			clear: left;
+			float: left;
+			width: 200px;
+		}
+
+		nav.vertical li {
+			list-style-type: none;
+			text-indent: 20px;
+			margin-top: 20px;
+			maring-bottom: 20px;
+		}
+
+		nav.vertical li a {
+			color: white;
+			text-decoration: none;
+		}
+
+		nav.vertical li a:hover {
+			color: black;
+		}
+		
+		/* Main */
+		
+		#main {
+		background-color: rgb(255, 211, 211);
+		float: left;
+		width: 600px;
+		}
+
+		#main > p {
+			font-size: 20px;
+			margin: 15px;
+		}
+
+		#main > img {
+			-moz-border-bottom-left-radius: 350px;
+			-webkit-border-bottom-left-radius: 350px;
+			border-bottom-left-radius: 350px;
+			float: right;
+			margin: 15px;
+			width: 350px;
+		}
+		
+		/* Coupons */
+
+		div.coupon {
+			background: url(slice.png) center no-repeat, url(notice.png) bottom right no-repeat;
+			background-color: white;
+			border: 5px dashed black;
+			float: left;
+			margin: 20px 10px;
+			height: 150px;
+			width: 170px;
+		}
+
+		div.coupon h1 {
+			background-color: rgb(192, 0, 0);
+			color: white;
+			display: small-caps;
+			font-size: 16px;
+			height: 25px;
+			letter-spacing: 2px;
+			text-align: center;
+		}
+
+		div.coupon p {
+			font-size: 14px;
+			text-align: center;
+			margin: 5px;
+		}
+		
+		/* Aside */
+
+		aside {
+			float: left;
+			width: 200px;
+		}
+
+		aside h1 {
+			color: rgb(192, 0, 0);
+			font-size: 20px;
+			letter-spacing: 2px;
+			font-weight: normal;
+			text-align: center;
+		}
+
+		aside li {
+			background-color: rgb(255, 135, 135);
+			border-radius: 5px;
+			color: black;
+			list-style-type: none;
+			margin: 10px;
+			padding: 5px;
+		}
+		
+		/* Footer */
+		
+		footer {
+			clear: left;
+			margin-left: 200px;
+		}
+
+		footer address {
+			border-top: 1px solid red;
+			color: red;
+			font-size: 10px;
+			text-decoration: normal;
+			text-align: center;
+			margin-top: 25px;
+			padding-bottom: 20px;
+		}

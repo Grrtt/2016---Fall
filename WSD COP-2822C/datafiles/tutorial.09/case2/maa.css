@@ -1,0 +1,95 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Case Problem 2
+
+   Middle Age Arts Style Sheet
+
+   Author:    
+   Date:      
+
+   Filename:         maa.css
+   Supporting Files: 
+
+*/
+
+img {
+    border-width: 0px;
+}
+
+/*Body styles*/
+
+body {
+    background: url(gbar.jpg);
+}
+
+    body a:link {
+        color: white;
+    }
+
+    body a:visited {
+        color: white;
+    }
+
+    body a:active {
+        color: white;
+    }
+
+    body table {
+        width: 810px;
+    }
+
+#leftcol {
+    width: 165px;
+}
+
+    #leftcol h4 {
+        color: yellow;
+    }
+
+#rightcol {
+    width: 645px;
+}
+
+    #rightcol table {
+        width: 645px;
+    }
+
+#article1 {
+    width: 320px;
+}
+
+    #article1 h4 {
+        color: red;
+        text-align: center;
+    }
+
+    #article1 img {
+        float: right;
+    }
+
+#gutter {
+    width: 5px;
+}
+
+#aside1 {
+    background: yellow;
+    width: 320px;
+}
+
+    #aside1 h4 {
+        text-align: center;
+    }
+
+#aside2 {
+    width: 320px;
+}
+
+    #aside2 h4 {
+        text-align: center;
+        color: red;
+    }
+
+    #aside2 img {
+        float: right;
+    }

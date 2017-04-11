@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Media Searcher : Feedback</title>
+    <link href="mtw.css" rel="stylesheet" type="text/css" />
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Media Searcher</h1>
+
+    <nav id="nav">
+        <script>getNav()</script>
+    </nav>
+
+    <form id="feedbackForm" action="mailto:gshepherd@mail.valenciacollege.edu" method="post">
+        <fieldset>
+            <legend>Personal</legend>
+            <label for="name">
+                First Name<sup>*</sup>
+                <input name="name" id="name" required="required" />
+            </label>
+        </fieldset>
+
+        <fieldset id="projectInfo">
+            <legend>This Project</legend>
+            <label for="likes">What did you like about this site? (Check all that apply.)</label>
+            <fieldset>
+                <input type="checkbox" name="colorScheme" value="colorScheme" />Color Scheme<br />
+                <input type="checkbox" name="layout" value="layout" />Layout<br />
+                <input type="checkbox" name="utility" value="utility" />Utility<br />
+            </fieldset>
+            
+            <label for="thisComments">How could this website be improved?</label>
+            <textarea name="thisComments" id="thisComments"></textarea>
+        </fieldset>
+
+        <fieldset id="projectInfo">
+            <legend>Your Project</legend>
+            <label for="websiteType">What type of website did you make?</label>
+            <select name="websiteType" id="websiteType">
+                <option value="personal" selected="selected">Personal</option>
+                <option value="personal">Business</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label>Did you have fun making your website?</label>
+            <fieldset class="optionGroup">
+                Yes<input type="radio" name="fun" id="yes" value="yes" />
+                No<input type="radio" name="fun" id="no" value="no" />
+            </fieldset>
+
+            <label for="yourComments">Describe your project.</label>
+            <textarea name="yourComments" id="yourComments"></textarea>
+        </fieldset>
+        <p>
+            <input type="submit" value="Send Email" />
+            <input type="reset" value="Cancel" />
+        </p>
+    </form>
+
+</body>
+</html>
